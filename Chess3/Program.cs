@@ -1,8 +1,4 @@
-﻿//Shakirov Ainur 220P
-//Chess 3
-//17.03.2021
-
-using System;
+﻿using System;
 
 class Program
 {
