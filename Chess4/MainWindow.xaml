@@ -5,29 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chess4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="800">
-    <Grid>
+        Title="MainWindow" Height="768" Width="1000">
+    <Window.Resources>
+        <Style x:Key="CellHeight">
+            <Setter Property="Control.Height" Value="80" />
+        </Style>
+        <Style x:Key="CellWidth">
+            <Setter Property="Control.Width" Value="80" />
+        </Style>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Bottom">
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Column="0" Grid.Row="0" Text="8" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
         <TextBlock Grid.Column="0" Grid.Row="1" Text="7" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
