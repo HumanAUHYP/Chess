@@ -20,9 +20,36 @@ namespace Chess4
     /// </summary>
     public partial class MainWindow : Window
     {
+        public bool addOrMove = false;
+        public string pieceName;
         public MainWindow()
         {
             InitializeComponent();
+            while(true)
+            {
+                if (addOrMove)
+                {
+                    pieceName = tbPieceName.Text;
+                }
+            }
+        }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            addOrMove = true;
+        }
+
+        private void Cell_Click(object sender, RoutedEventArgs e)
+        {
+            if (addOrMove)
+            {
+                (sender as Button).Content = tbPieceName.Text;
+            }
+            else
+            {
+                (sender as Button).Content = tbPieceName.Text;
+            }
+            
         }
     }
 }
