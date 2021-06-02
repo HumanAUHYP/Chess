@@ -55,83 +55,83 @@
         <TextBlock Grid.Column="7" Grid.Row="8" Text="G" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
         <TextBlock Grid.Column="8" Grid.Row="8" Text="H" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 
-        <Button Grid.Column="1" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="0" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="0" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="1" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="1" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="2" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="2" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="3" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="3" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="4" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="4" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="5" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="5" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
+        <Button Grid.Column="1" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="6" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="6" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
 
-        <Button Grid.Column="1" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="2" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="3" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="4" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="5" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="6" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="7" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" />
-        <Button Grid.Column="8" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" />
-        <Button x:Name="Add" Content="ADD&#xD;&#xA;PIECE" Grid.Column="8" HorizontalAlignment="Left" Margin="90,64,-118,0" VerticalAlignment="Top" Width="108" Height="96" Grid.RowSpan="2" FontSize="36" Click="Add_Click" Grid.Row="6"/>
-        <Button Content="P" FontSize="48" Margin="90,0,-50,12" Grid.Row="5" Grid.Column="8" Click="PieceName_Click"/>
-        <Button Content="B" FontSize="48" Margin="90,0,-50,12" Grid.Row="3" Grid.Column="8" Click="PieceName_Click"/>
-        <Button Content="K" FontSize="48" Margin="90,0,-50,12" Grid.Column="8" Click="PieceName_Click"/>
-        <Button Content="Q" FontSize="48" Click="PieceName_Click" Margin="90,0,-50,12" Grid.Row="1" Grid.Column="8"/>
-        <Button Content="R" FontSize="48" Click="PieceName_Click" Margin="90,0,-50,12" Grid.Row="2" Grid.Column="8"/>
-        <Button Content="N" FontSize="48" Click="PieceName_Click" Margin="90,0,-50,12" Grid.Row="4" Grid.Column="8"/>
+        <Button Grid.Column="1" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="2" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="3" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="4" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="5" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="6" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="7" Grid.Row="7" Foreground="White" Background="Black" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button Grid.Column="8" Grid.Row="7" Foreground="Black" Background="White" FontSize="48" Click="Cell_Click" MouseRightButtonUp="Cell_MouseRightButtonUp" />
+        <Button x:Name="btnAdd" Content="ADD&#xD;&#xA;PIECE" HorizontalAlignment="Left" Margin="90,0,-118,0" VerticalAlignment="Top" Width="108" Height="96" Grid.RowSpan="2" FontSize="36" Click="Add_Click" Grid.Column="8" Background="Red"/>
+        <Button Content="P" FontSize="48" Margin="90,12,-50,0" Grid.Row="7" Grid.Column="8" Click="PieceName_Click"/>
+        <Button Content="B" FontSize="48" Margin="90,12,-50,0" Grid.Row="5" Grid.Column="8" Click="PieceName_Click"/>
+        <Button Content="K" FontSize="48" Margin="90,12,-50,0" Grid.Column="8" Click="PieceName_Click" Grid.Row="2"/>
+        <Button Content="Q" FontSize="48" Click="PieceName_Click" Margin="90,12,-50,0" Grid.Row="3" Grid.Column="8"/>
+        <Button Content="R" FontSize="48" Click="PieceName_Click" Margin="90,12,-50,0" Grid.Row="4" Grid.Column="8"/>
+        <Button Content="N" FontSize="48" Click="PieceName_Click" Margin="90,12,-50,0" Grid.Row="6" Grid.Column="8"/>
     </Grid>
 </Window>
