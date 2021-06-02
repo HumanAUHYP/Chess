@@ -22,16 +22,11 @@ namespace Chess4
     {
         public bool addOrMove = false;
         public string pieceName;
+        
         public MainWindow()
         {
             InitializeComponent();
-            while(true)
-            {
-                if (addOrMove)
-                {
-                    pieceName = tbPieceName.Text;
-                }
-            }
+
         }
 
         private void Add_Click(object sender, RoutedEventArgs e)
@@ -41,15 +36,12 @@ namespace Chess4
 
         private void Cell_Click(object sender, RoutedEventArgs e)
         {
-            if (addOrMove)
-            {
-                (sender as Button).Content = tbPieceName.Text;
-            }
-            else
-            {
-                (sender as Button).Content = tbPieceName.Text;
-            }
-            
+           (sender as Button).Content = pieceName;
+        }
+
+        private void PieceName_Click(object sender, RoutedEventArgs e)
+        {
+            pieceName = Convert.ToString((sender as Button).Content);
         }
     }
 }
